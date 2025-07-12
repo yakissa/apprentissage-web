@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fr">
+   <head>
+       <meta charset="UTF-8" />
+       <title>Formulaire d'Alice</title>
+   </head>
+   <body>
+      <fieldset>
+         <legend> Pour vous inscrire, veuillez indiquer les informations suivantes </legend>
+            <ul>
+               <li> Nom <input type="text" name="nom" value="" size="10" maxlength="100"> </li>
+               <li> Prénom <input type="text" name="prenom" value="" size="10" maxlength="100"> </li>
+               <li> Adresse de Facturation <textarea name="facture" ></textarea> </li>
+               <li> Date d'arrivée <input type="date"> Date de départ <input type="date"> </li>
+               <dl>
+                  <dt> <li> Votre statut </li> </dt>
+                  <dd> <input type="radio" name="conferencier" value=""> Conférencier <input type="radio" name="chercheur" value=""> Chercheur <input type="radio" name="industriel" value="">  Industriel </dd>
+                  <dt> <li> Réservation souhaitée </li> </dt>
+                  <dd> <input type="checkbox" name="dej1" value=""> Déjeuner Jour 1 <input type="checkbox" name="dej2" value="">  Déjeuner Jour 2 <input type="checkbox" name="dinner1" value=""> Dinner Jour 1 <input type="checkbox" name="dinner2" value=""> Dinner Jour 2 </dd>
+               </dl>
+            </ul>   
+            <input type="submit" value="S'inscrire">    
+      </fieldset>
+   </body>
+</html>

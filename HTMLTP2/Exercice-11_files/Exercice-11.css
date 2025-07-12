@@ -1,0 +1,167 @@
+header{
+  display: flex;
+  flex-direction: row;
+  
+  border-radius: 20px;
+  border-color: black;
+  border: 2px solid black;
+  flex-basis: 20px;
+  
+  gap: 20px;
+  background-color: beige;
+}
+
+#logo {
+  width: 120px;
+  height: 120px;
+  
+  text-align: center;
+  border-style: solid;
+  border-radius: 20px;
+  border-color: black;
+  background-color: red;
+  
+}
+#pub {
+  
+  height: 120px;
+  padding-left: 14%;
+  padding-right: 14%;
+  width:110%;
+  text-align: center;
+  border-style: solid;
+  border-radius: 20px;
+  border-color: black;
+  background-color: red;
+}
+
+#pub a img{
+
+  border-radius: 20px;
+  padding-top: 10px ;
+  width: 480px;
+  height: 100px;
+  
+}
+
+main{
+  border: 2px solid black;
+  border-radius: 20px;
+  display: flex;
+  background-color: beige;
+  flex-direction: row;
+}
+
+#recherche {
+  position: absolute;
+  top:16%;
+  right: 5%;
+}
+
+ul.menu{
+  
+  flex-direction: column;
+  width: 10em;
+  height:98%;
+  border-radius: 20px;
+  border: 2px solid black;
+  margin-top: auto;
+  padding-top: 8%;
+  background: greenyellow;
+}
+
+#titre {
+  flex-direction: column;
+  border: 2px solid black;
+  border-radius: 10px;
+  text-align: center;
+  background-color: greenyellow;
+}
+
+p::first-letter {
+  color: black;
+  font-size: 200%;
+}
+
+p {
+  padding-right: 5%;
+}
+
+aside {
+  padding-top: 4ex;
+  display: block;
+  float: right;
+  width: auto;
+  max-width: 20em;
+  height: 16em;
+  
+}
+
+#encart1::before{
+  counter-reset: blocksdroite;
+  content: counter(blocksdroite) ".";
+  counter-increment: blocksdroite;
+  font-size: 200%;
+}
+
+#encart1 {
+  margin-top: 4ex;
+  height : auto;
+  max-width: 25%;
+  box-sizing: content-box;
+  box-shadow: 10px;
+  
+  text-align: center;
+  margin-left: 20%;
+  margin-top: 5%;
+  border: solid black 2px;
+  border-radius: 10px;
+  padding: 2%;
+  background: greenyellow;
+  box-shadow: -0.5rem 0.5rem black;
+  
+}
+
+
+#encart2::before{
+  content: counter(blocksdroite) ".";
+  counter-increment: blocksdroite;
+  font-size: 200%;
+}
+
+#encart2 {
+  counter-increment: blocksdroite;
+  height : auto;
+  margin-top: 4ex;
+  max-width: 25%;
+  box-sizing: content-box;
+  text-align: center;
+  
+  
+  margin-left: 40%;
+  
+  border: solid black 2px;
+  border-radius: 10px;
+  padding: 2%;
+  background: greenyellow;
+  box-shadow: -0.5rem 0.5rem black;
+}
+
+
+section.contenu{
+  border-radius: 13px;
+  border: 2px solid black;
+}
+
+footer {
+  background: red;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border-style: solid;
+  border-radius: 15px;
+  border-color: black;
+  justify-content: center;
+  padding-left: 25%;
+  padding-right: 25%;
+}
